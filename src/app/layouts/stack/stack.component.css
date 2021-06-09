@@ -1,0 +1,23 @@
+StackLayout {
+    margin-top: 20;
+    border-color: green;
+    border-width: 5;
+    padding: 10;
+    height: 300;
+}
+Label {
+    width: 50;
+    height: 50;
+}
+
+#l1 {
+    background-color: aqua;
+}
+
+#l2 {
+    background-color: bisque;
+}
+
+#l3 {
+    background-color: brown;
+}
