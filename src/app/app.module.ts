@@ -10,7 +10,8 @@ import { CurrentChallengeComponent } from './challenges/current-challenge/curren
 import { StackComponent } from './layouts/stack/stack.component'
 import { FlexBoxComponent } from './layouts/flexBox/flex-box.component'
 import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-edit.component';
-import { TodayComponent } from './challenges/today/today.component'
+import { TodayComponent } from './challenges/today/today.component';
+import { AuthComponent } from './auth/auth.component'
 
 @NgModule({
   bootstrap: [AppComponent],
@@ -23,7 +24,8 @@ import { TodayComponent } from './challenges/today/today.component'
     StackComponent,
     FlexBoxComponent,
     ChallengeEditComponent,
-    TodayComponent
+    TodayComponent,
+    AuthComponent
   ],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
