@@ -7,9 +7,4 @@ import { Component } from '@angular/core'
 })
 
 export class AppComponent {
-  activeChallenge: string = '';
-
-  onChallengeInput(challengeDescription: string) {
-    this.activeChallenge = challengeDescription;
-  }
 }
