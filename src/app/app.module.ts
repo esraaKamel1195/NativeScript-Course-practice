@@ -12,7 +12,8 @@ import { FlexBoxComponent } from './layouts/flexBox/flex-box.component'
 import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-edit.component';
 import { TodayComponent } from './challenges/today/today.component';
 import { AuthComponent } from './auth/auth.component';
-import { ActionBarComponent } from './shared/ui/action-bar/action-bar.component'
+import { ActionBarComponent } from './shared/ui/action-bar/action-bar.component';
+import { ChallengeTabsComponent } from './challenges/challenge-tabs/challenge-tabs.component';
 
 @NgModule({
   bootstrap: [AppComponent],
@@ -31,7 +32,8 @@ import { ActionBarComponent } from './shared/ui/action-bar/action-bar.component'
     ChallengeEditComponent,
     TodayComponent,
     AuthComponent,
-    ActionBarComponent
+    ActionBarComponent,
+    ChallengeTabsComponent
   ],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],

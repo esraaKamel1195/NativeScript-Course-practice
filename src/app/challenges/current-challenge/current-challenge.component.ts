@@ -11,11 +11,10 @@ import { RouterExtensions } from '@nativescript/angular';
 export class CurrentChallengeComponent {
 
   constructor(
-    private router: RouterExtensions,
-
+    private router: RouterExtensions
   ) {}
 
   onEdit() {
-    this.router.navigate(['/editChallenge'], { transition: { name: "slideLift" } });
+    this.router.navigate( ['/editChallenge'], { transition: { name: "slideLift" } } );
   }
 }
