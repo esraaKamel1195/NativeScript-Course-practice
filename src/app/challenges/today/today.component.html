@@ -1,4 +1,13 @@
+<ng-action-bar
+    title="Today's Challenge"
+    [showBackButton]="false"
+></ng-action-bar>
 <stackLayout>
     <Label text="today!"></Label>
-    <Button text="today works!" class="btn btn-primary"></Button>
+    <Button
+        text="today works!"
+        class="btn btn-primary"
+        nsRouterLink="/currentChallenge"
+        pageTransition="slideLeft"
+    ></Button>
 </stackLayout>

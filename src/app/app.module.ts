@@ -11,11 +11,16 @@ import { StackComponent } from './layouts/stack/stack.component'
 import { FlexBoxComponent } from './layouts/flexBox/flex-box.component'
 import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-edit.component';
 import { TodayComponent } from './challenges/today/today.component';
-import { AuthComponent } from './auth/auth.component'
+import { AuthComponent } from './auth/auth.component';
+import { ActionBarComponent } from './shared/ui/action-bar/action-bar.component'
 
 @NgModule({
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule, AppRoutingModule, NativeScriptFormsModule],
+  imports: [
+    NativeScriptModule,
+    AppRoutingModule,
+    NativeScriptFormsModule
+  ],
   declarations: [
     AppComponent,
     ItemsComponent,
@@ -25,7 +30,8 @@ import { AuthComponent } from './auth/auth.component'
     FlexBoxComponent,
     ChallengeEditComponent,
     TodayComponent,
-    AuthComponent
+    AuthComponent,
+    ActionBarComponent
   ],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
