@@ -1,6 +1,9 @@
 <ng-action-bar title="Challenges"></ng-action-bar>
 
-<TabView androidTabsPosition="bottom">
+<TabView
+    androidTabsPosition="bottom"
+    androidSelectedTabHignlightColor="#7c015d"
+    selectedTabTextColor="#7c015d">
     <StackLayout *tabItem="{ title: 'Today' }" name="today">
         <router-outlet>
             <Label text="Tab 1"></Label>
