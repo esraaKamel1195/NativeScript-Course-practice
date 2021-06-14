@@ -1,8 +1,14 @@
-<TabView>
-    <StackLayout *tabItem="{ title: 'Today' }">
-        <Label text="Tab 1"></Label>
+<ng-action-bar title="Challenges"></ng-action-bar>
+
+<TabView androidTabsPosition="bottom">
+    <StackLayout *tabItem="{ title: 'Today' }" name="today">
+        <router-outlet>
+            <Label text="Tab 1"></Label>
+        </router-outlet>
     </StackLayout>
-    <StackLayout *tabItem="{ title: 'Current Challenge' }">
-        <Label text="Tab 2"></Label>
+    <StackLayout *tabItem="{ title: 'Current Challenge' }" name="currentChallenge">
+        <router-outlet>
+            <Label text="Tab 2"></Label>
+        </router-outlet>
     </StackLayout>
 </TabView>
